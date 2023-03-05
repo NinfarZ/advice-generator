@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import AdviceCard from './AdviceCard'
 
 export default function Home() {
   return (
@@ -9,8 +10,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
+      <main className=' flex justify-center min-h-screen bg-dark-blue font-manrope'>
+        <div className='bg-dark-grayish-blue m-auto rounded-lg min-w-fit max-w-5xl mx-4 shadow-lg'>
+          <AdviceCard />
 
+        </div>
       </main>
     </>
   )
