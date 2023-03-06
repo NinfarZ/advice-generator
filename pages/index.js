@@ -10,10 +10,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=' flex justify-center min-h-screen bg-dark-blue font-manrope'>
+      <main className=' flex flex-col items-center min-h-screen bg-dark-blue font-manrope'>
         <div className='bg-dark-grayish-blue m-auto rounded-lg min-w-fit max-w-5xl mx-4 shadow-lg'>
           <AdviceCard />
-
+        </div>
+        <div className='mb-5'>
+          Challenge by <a className='text-neon-green hover:underline mr-3' href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
+          Coded by <a className='text-neon-green hover:underline mr-3' href="#">Tasso Lima.</a>
         </div>
       </main>
     </>
