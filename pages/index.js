@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         <div className='mb-5'>
           Challenge by <a className='text-neon-green hover:underline mr-3' href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
-          Coded by <a className='text-neon-green hover:underline mr-3' href="#">Tasso Lima.</a>
+          Coded by <a className='text-neon-green hover:underline mr-3' href="https://github.com/NinfarZ/advice-generator">Tasso Lima.</a>
         </div>
       </main>
     </>
