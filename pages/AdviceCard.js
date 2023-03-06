@@ -34,7 +34,7 @@ function AdviceCard() {
                 <source media="(min-width: 768px)" srcSet='pattern-divider-desktop.svg' />
                 <img src={"pattern-divider-mobile.svg"} alt="divider" />
             </picture>
-            <button onClick={randomAdvice} className='transition-all ease-in-out flex justify-center mx-auto translate-y-10 bg-neon-green p-4 rounded-[30px] hover:bg-opacity-50 hover:rounded-md'>
+            <button onClick={randomAdvice} className='transition-all ease-in-out flex justify-center mx-auto translate-y-10 bg-neon-green p-4 rounded-[30px] shadow-[0_0_15px_0_rgba(0,0,0,.5)] hover:shadow-neon-green'>
                 <img src={"icon-dice.svg"} />
             </button>
         </div>
