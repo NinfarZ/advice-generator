@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/NinfarZ/advice-generator)
-- Live Site URL: [Add live site URL here](https://ninfarz.github.io/advice-generator/)
+- Solution URL: [Solution](https://github.com/NinfarZ/advice-generator)
+- Live Site URL: [Live](https://ninfarz.github.io/advice-generator/)
 
 ## My process
 
